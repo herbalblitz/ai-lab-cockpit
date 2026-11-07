@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- AI-Lab Cockpit talks to a local bridge (LAN / Tailscale / Cloudflare Tunnel).
+         Tailscale encrypts transport; never expose port 8642 to the public internet. -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

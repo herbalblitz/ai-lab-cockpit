@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fd_bg">#070A12</color>
+    <color name="fd_bg2">#0A0F1A</color>
+    <color name="fd_surface">#101625</color>
+    <color name="fd_surface2">#151D30</color>
+    <color name="fd_surface3">#1B253B</color>
+    <color name="fd_stroke">#24304A</color>
+    <color name="fd_text">#F3F6FF</color>
+    <color name="fd_muted">#93A3BF</color>
+    <color name="fd_primary">#7C8CFF</color>
+    <color name="fd_primary2">#B07CFF</color>
+    <color name="fd_accent">#3DE0B0</color>
+    <color name="fd_gold">#FFC66D</color>
+    <color name="fd_danger">#FF6B81</color>
+    <color name="fd_tile">#0D1422</color>
+    <color name="fd_ripple">#33FFFFFF</color>
+    <color name="fd_code">#0A0F1A</color>
+    <color name="fd_chip_selected">#1A2542</color>
+    <color name="fd_nav">#0B111D</color>
+    <color name="fd_hero_start">#17213B</color>
+    <color name="fd_hero_end">#0D1322</color>
+    <color name="fd_white">#FFFFFF</color>
+    <color name="fd_black">#000000</color>
+    <color name="fd_transparent">#00000000</color>
+</resources>

@@ -1,0 +1,9 @@
+build/
+signing/
+tools/*.jar
+dist/*.idsig
+dist/*.apk.sha256
+__pycache__/
+*.pyc
+.env
+*.log

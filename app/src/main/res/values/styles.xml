@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AiLabCockpit.Base" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fd_bg</item>
+        <item name="android:colorAccent">@color/fd_primary</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">@color/fd_bg</item>
+        <item name="android:statusBarColor">@color/fd_bg</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.AiLabCockpit" parent="Theme.AiLabCockpit.Base" />
+
+    <style name="Text.Display" parent="">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingMultiplier">1.02</item>
+    </style>
+
+    <style name="Text.H1" parent="">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingMultiplier">1.08</item>
+    </style>
+
+    <style name="Text.H2" parent="">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Body" parent="">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+    </style>
+
+    <style name="Text.BodyStrong" parent="">
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <style name="Text.Caption" parent="">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Label" parent="">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textSize">9.5sp</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Section" parent="Text.Label">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.16</item>
+    </style>
+
+    <style name="Text.Number" parent="">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.NumberSmall" parent="">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Nav" parent="">
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textSize">9.5sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Widget.Chip" parent="">
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textSize">9.5sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Tag" parent="Widget.Chip">
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:textColor">@color/fd_muted</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="Widget.Input" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textColorHint">@color/fd_muted</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.PrimaryButton" parent="Widget.Action">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textColor">@color/fd_white</item>
+    </style>
+
+    <style name="Widget.GhostButton" parent="Widget.Action">
+        <item name="android:background">@drawable/bg_button_ghost</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textColor">@color/fd_text</item>
+    </style>
+
+    <style name="Text.Button" parent="">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/fd_text</item>
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Action" parent="">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@color/fd_white</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textSize">12.5sp</item>
+    </style>
+</resources>

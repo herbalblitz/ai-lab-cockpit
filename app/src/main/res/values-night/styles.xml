@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AiLabCockpit.Base" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fd_bg</item>
+        <item name="android:colorAccent">@color/fd_primary</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">@color/fd_bg</item>
+        <item name="android:statusBarColor">@color/fd_bg</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.AiLabCockpit" parent="Theme.AiLabCockpit.Base" />
+</resources>
